@@ -5,4 +5,6 @@ https://github.com/material-components/material-components-android/issues/4139
 
 <img src="2025-03-05-1.png" width="150"><img src="2025-03-05-2.png" width="150">
 
+https://issuetracker.google.com/issues/400894495
+
 [Manabu Nakamura](https://github.com/manabu-nakamura)
