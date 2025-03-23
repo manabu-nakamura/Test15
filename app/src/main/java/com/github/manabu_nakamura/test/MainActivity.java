@@ -1,13 +1,11 @@
 package com.github.manabu_nakamura.test;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.View;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.PickVisualMediaRequest;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,13 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(binding.appBar);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    public void photoPicker(MenuItem item) {
+    public void photoPicker(View view) {
         activityResultLauncher.launch(new PickVisualMediaRequest.Builder().build());
     }
 
