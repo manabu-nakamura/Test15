@@ -7,7 +7,7 @@ https://github.com/material-components/material-components-android/issues/4139.
 
 The background color of button ("Photos") is always dynamic color, regardless of whether the app is dynamic color or not.
 
-P.S. When the system setting is LIGHT and the app setting is DARK, the photopicker, the filepicker, and the Gboard are LIGHT.
+P.S. When the system setting is LIGHT and the app setting is DARK, the photopicker (, the filepicker, and the Gboard) are LIGHT.
 
 <img src="2025-03-20-1.png" width="150">
 
